@@ -9,9 +9,7 @@ const links = [
   { label: 'Inicio', href: '#Wrapper' },
   { label: 'Nuestro sello', href: '#Nosotros' },
   { label: 'Servicios', href: '#Servicios' },
-  { label: 'Artistas', href: '#' },
-  { label: 'Nuevos lanzamientos', href: '#' },
-  { label: 'Contacto', href: '#' }
+  { label: 'Contacto', href: '#Contacto' }
 ]
 
 const Navbar = () => {
@@ -50,7 +48,7 @@ const Navbar = () => {
           {links.map(({ label, href }) => (
             <li
               key={label}
-              className='my-4 text-lg text-gray-300 transition-all duration-200 ease-in md:ml-5 md:my-0 hover:text-red-500'
+              className='my-4 text-xl text-gray-300 transition-all duration-200 ease-in md:ml-5 md:my-0 hover:text-yellow-400/60'
             >
               <a href={href} onClick={handleClick}>{label}</a>
             </li>
