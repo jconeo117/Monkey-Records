@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import demo from '../../../public/demo.jpg'
+import demo from '../../../public/studio.jpg'
 
 export const About = () => {
   return (

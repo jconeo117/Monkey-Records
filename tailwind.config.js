@@ -21,7 +21,7 @@ module.exports = {
         // => @media (min-width: 1280px) { ... }
       },
       backgroundImage: {
-        demo: "url('../public/demo.jpg')"
+        demo: "url('../public/studio.jpg')"
       }
     },
     plugins: []

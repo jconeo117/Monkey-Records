@@ -9,6 +9,7 @@ const links = [
   { label: 'Inicio', href: '#Wrapper' },
   { label: 'Nuestro sello', href: '#Nosotros' },
   { label: 'Servicios', href: '#Servicios' },
+  { label: 'Novedades', href: '#Novedades' },
   { label: 'Contacto', href: '#Contacto' }
 ]
 

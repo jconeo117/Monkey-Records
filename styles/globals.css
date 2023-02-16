@@ -105,6 +105,10 @@ a {
     color-scheme: dark;
   }
 }
+a:hover>.group_color{
+  color:#e5e7eb;
+  fill: #e5e7eb;
+}
 
 @tailwind base;
 @tailwind components;

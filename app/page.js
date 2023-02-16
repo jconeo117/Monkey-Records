@@ -4,6 +4,7 @@ import Navbar from './components/navbar'
 import { Services } from './components/sections/services'
 import { Contacto } from './components/sections/contacto'
 import { Footer } from './components/sections/footer'
+import { Novedades } from './components/sections/novedades'
 
 export default function Home () {
   return (
@@ -12,6 +13,7 @@ export default function Home () {
       <Inicio />
       <About />
       <Services />
+      <Novedades />
       <Contacto />
       <Footer />
     </>
