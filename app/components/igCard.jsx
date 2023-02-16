@@ -12,7 +12,7 @@ export const IgCard = async ({ idcard }) => {
     <div className='flex flex-col md:w-[400px] w-80 justify-center items-center mb-10 mx-auto'>
       <img width={400} height={400} className='rounded-lg' src={data.thumbnail_url} alt={data.caption} />
       <div className='flex flex-col justify-center'>
-        <p className='text-center'>{data.caption}</p>
+        <p className='text-center text-gray-200'>{data.caption}</p>
         <a href={data.permalink} target='_blank' rel='noreferrer' className='flex justify-center text-xl text-yellow-400/40 hover:underline'> ver mas</a>
       </div>
     </div>
