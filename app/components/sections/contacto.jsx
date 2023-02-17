@@ -8,7 +8,7 @@ const Redes = [
   { label: 'Instagram', href: 'https://www.instagram.com/monkeyrecordsoficial/', icon: instagram },
   { label: 'Facebook', href: 'https://www.facebook.com/MonkeyRecordsOficial', icon: facebook },
   { label: 'Youtube', href: 'https://www.youtube.com/@MonkeyRecordsoficial', icon: youtube },
-  { label: 'TikTok', href: '#', icon: tiktok }
+  { label: 'TikTok', href: 'https://www.tiktok.com/@monkeyrecordsoficial', icon: tiktok }
 ]
 
 export const Contacto = async () => {
