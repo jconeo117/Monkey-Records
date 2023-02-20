@@ -12,7 +12,7 @@ export const Novedades = async () => {
   return (
     <section id='Novedades'>
       <h2 className='py-4 mb-10 text-6xl font-bold text-center underline text-yellow-400/40'>Novedades</h2>
-      <div className='flex flex-col md:justify-around md:flex-row w-full h-[700px] items-center'>
+      <div className='flex flex-col md:justify-around md:flex-row w-full h-fit md:h-[700px] items-center'>
         {Posts.data.data.slice(0, 3).map(el => (
           <IgCard key={el.id} idcard={el.id} />
         ))}
